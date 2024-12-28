@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    min-height: 100vh;
+}
+
+.ql-editor{ /*This is the inbuilt class of the qlEditor coming just modifying targeting that class.*/
+    font-size: 1.05rem; /*5% more of the previous font size*/
+}
+
+.postContent p{
+    margin-bottom: 0.5rem;
+}
+
+.postContent h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.postContent h2{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.postContent h3{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.postContent li{
+    margin-bottom: 7px;
+}
+
+.postContent a{
+    color: rgb(73, 149, 193);
+    text-decoration: none;
+}
+
+/* This is how you style for dark mode just adding .dark */
+.dark .postContent a{
+    color: red;
+    text-decoration: none;
+}
+
+
+.postContent a:hover{
+
+    text-decoration: underline;
+
+}
